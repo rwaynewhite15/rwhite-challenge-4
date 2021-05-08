@@ -1,21 +1,138 @@
+:root{
+    --BLUE: #007bff;
+    --blue: #005bb6;
+    --offWHite: #fff;
+    --white: #ffffff;
+}
 *{
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
     font-family: 'Literata', Arial, Helvetica, sans-serif; 
 }
 body{
     background: linen;
 }
-start
-
 .hide{
     display: none;
 }
-#start h1{
-    margin: auto;
+.start{
+    display: block;
+}
+.title{
+    border-bottom: 1px solid lightgray;
+}
+
+.info-box{
+    width: 540px;
+    background: var(--offWHite);
+    border-radius: 5px;
+}
+.info-box .info-title {
+    height: 60px;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding: auto;
+    text-align: center;
+    justify-content: center;
+}
+.info-box .info-list{
+    padding: 15px 35px;
+}
+.info-box .info-list .info{
+    margin: 5px 0;
+    font-size: 17px;
+}
+.info-box .info-list .info span{
+    font-weight: 600;
+    color: lightskyblue;   
+}
+#timeRem{
+    
+    margin-top: 5;
+
 }
 #start-btn{
-    width: 25%;
-    margin: auto;
+    width: 50%;
+    background-color: var(--BLUE);
+    border-color: var(--offWHite);
+    color: var(--white);
+    font-weight: bolder;
+    letter-spacing: 2px;
+    border-radius: 10px;
+}
+#start-btn:hover{
+    background: var(--blue);
+    color: var(--white);
+}
+.info-box .buttons{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: o 35px;
+    border-top: 1px solid lightgray;
+} 
+.info-box .buttons button{
+    margin: 0 5px;
+    height: 40px;
+    width: 100px;
+    border: 1px solid var(--BLUE);
+    background: var(--BLUE);
+    border-radius: 7px;
+    color: var(--offWHite);
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.buttons button.quit{
+    border-color: var(--BLUE);
+    background-color: var(--offWHite);
+    color: var(--BLUE);
+}
+.buttons button.restart{
+    color: var(--offWHite);
+    background: var(--BLUE);
+}
+.buttons button.quit:hover{
+    background: var(--BLUE);
+    color: var(--offWHite);
+}
+.buttons button.restart:hover{
+    background: var(--blue);
+    color: var(--white);
+}
+.question {
+    border-bottom: 1px solid lightgray;
+}
+
+.ansBtn{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+#initials, #saveScore {
+    width: 100px;
+}
+#response{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: o 35px;
+    border-top: 1px solid lightgray;
+}
+#saveScore{
+    border-color: var(--BLUE);
+    background-color: var(--offWHite);
+    color: var(--BLUE);
+    width:50%
+}
+#saveScore:hover{
+    background: var(--BLUE);
+    color: var(--offWHite);
 }

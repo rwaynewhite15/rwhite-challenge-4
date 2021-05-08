@@ -56,10 +56,10 @@ startBtn.addEventListener("click", () => {
     var startCountdown = setInterval(countdown, 1000);
     var counter = 60
     function countdown(){
+        
         console.log(counter);
         counter--;
             if (counter === 0){
-                //endGame()
                 clearInterval(startCountdown)
             };
     };
