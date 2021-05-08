@@ -139,3 +139,10 @@ body{
     background: var(--BLUE);
     color: var(--offWHite);
 }
+.buttons{
+    justify-content: center;
+}
+.buttons a {
+        color: blue;
+        text-decoration: none; /* no underline */
+}
