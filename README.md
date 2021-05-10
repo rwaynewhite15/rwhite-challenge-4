@@ -6,6 +6,10 @@ This project involved building a timed multiple choice quiz with JavaScript util
 
 ![Start Page](https://raw.github.com/rwaynewhite15/rwhite-challenge-4/main/assets/Start.png)
 
+![Rules](https://raw.github.com/rwaynewhite15/rwhite-challenge-4/main/assets/Rules.png)
+
+![](https://raw.github.com/rwaynewhite15/rwhite-challenge-4/main/assets/Start.png)
+
 
 
 [Go to Application](https://rwaynewhite15.github.io/rwhite-challenge-4/)
