@@ -33,31 +33,33 @@
             <button class="restart btn btn-primary btn-sm">Continue</button>
         </div>
     </div>
-    <div id="questions" class="hide row info-box mt-5" style="width: auto">
-        <span id="timeRem">Time Left:</span>
-        <h1 class="question">
-            Question # <span id=questionNo></span>
+    <section id="questions" class="hide row quiz-box mt-5" style="width: auto">
+        <div id="time-rem">
+            <span>Time Left: 60</span>
+        </div>   
+        <h1 class="que-text">
+            <span></span>
         </h1>
-            <div id="choices" class="flex-direction">
-                <h1><button class="ansBtn"><span id="choiceA">A</span></h3></button></h1>
-                <h1><button class="ansBtn"><span id="choiceB">B</span></h3></button></h1>
-                <h1><button class="ansBtn"><span id="choiceC">C</span></h3></button></h1>
-                <h1><button class="ansBtn"><span id="choiceD">D</span></h3></button></h1>
-            </div>
-        <div id="response"></div>
-    </div>
-    </div>
-</div>
-    <div id="end" class="hide text-center p-5">
+        <div id="choices" class="flex-direction">
+                <div class="option"><span></span></div>
+                <div class="option"><span></span></div>
+                <div class="option"><span></span></div>
+                <div class="option"><span></span></div>
+        </div>
+        <div id="response">
+            <span></span>
+        </div>
+    </section>
+    <div id="quiz-end" class="hide text-center p-5">
         <div class="flex-direction flex-direction"><h1>End of Quiz!</h1>
-            <h3 class="score">Your score was <span id="score"></span> out of <span id="noQuestions">!</span></h3>
+            <h3 class="score"></h3>
             <h2>Enter Initials:</h2>
             <input type="text" id="initials" class="mt-1">
-            <button id="saveScore">Submit</button>
+            <button id="save-score">Submit</button>
         </div>
     </div>
-
 </main>
+<script src="assets/questions.js"></script>
 <script src="assets/script.js"></script>
 </body>
 </html>
