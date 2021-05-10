@@ -97,7 +97,7 @@ function quizEnd(){
     endBox.classList.remove("hide");
     const scoreText = document.querySelector(".score");
     let scoreTag = '<h3 class="score"> Your score was '+ score +' out of 10!</h3>';
-    scoreText.innerHTML = scoreTag 
+    scoreText.innerHTML = scoreTag; 
 }
 //Submit Initials
 submitBtn.onclick = () => {
@@ -107,7 +107,7 @@ submitBtn.onclick = () => {
         initials: initials,
         score: score
     }
-    localStorage.setItem(localStorage.length, JSON.stringify(resultsDataObj));
+    localStorage.setItem((localStorage.length+1), JSON.stringify(resultsDataObj));
     initialsText.value = ""
     location.reload();
 }
